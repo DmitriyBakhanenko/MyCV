@@ -1,88 +1,90 @@
 body {
-    margin: 0;
-    text-align: center;
-    font-family: 'Baloo Bhai', cursive, sans-serif;
+  margin: 0;
+  text-align: center;
+  font-family: "Baloo Bhai", cursive, sans-serif;
 }
 
 p.text {
-    display: inline-block;
-    max-width: 70%;
-    height: 1.5em;
+  display: inline-block;
+  max-width: 70%;
+  height: 1.5em;
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 0;
-    font-family: 'Sacramento', cursive, fantasy, Arial, Helvetica, sans-serif;
-    font-size: 600%;
-
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: "Sacramento", cursive, fantasy, Arial, Helvetica, sans-serif;
+  font-size: 600%;
 }
 
 h2,
 h3,
 h4 {
-    font-family: 'Montserrat', sans-serif, Arial, Helvetica;
-    color: #373a6d;
+  font-family: "Montserrat", sans-serif, Arial, Helvetica;
+  color: #373a6d;
 }
 
 .top-container {
-    background-color: #00FFFF;
-    margin: 0;
-    padding-top: 10%;
+  background-color: #00ffff;
+  margin: 0;
+  padding-top: 10%;
 }
 
 .bottom-cloud {
-    height: 7%;
-    position: absolute;
-    right: 5%;
-
+  height: 7%;
+  position: absolute;
+  right: 5%;
 }
 
 .top-cloud {
-    height: 12%;
-    position: absolute;
-    right: 75%;
-    top: 2%;
-    float: left;
-    display: block;
-    width: auto;
+  height: 12%;
+  position: absolute;
+  right: 75%;
+  top: 2%;
+  float: left;
+  display: block;
+  width: auto;
 }
 
 .mountain {
-    margin-top: 10%;
-    width: 100%;
-    vertical-align: bottom;
-    /*  removes white space at the bottom of container  */
+  margin-top: 10%;
+  width: 100%;
+  vertical-align: bottom;
+  /*  removes white space at the bottom of container  */
 }
 
 .skills-picture {
-    width: 13em;
+  width: 13em;
 }
 
 .contact-img {
-    width: 13em;
+  width: 13em;
 }
 
 .my-picture {
-    margin-top: 2em;
-    width: 13em;
+  margin-top: 2em;
+  width: 13em;
 }
 
 hr {
-    width: 10%;
-    border: none;
-    border-top: 12px dotted aqua;
-    margin-top: 3em;
-    margin-bottom: 3em;
+  width: 10%;
+  border: none;
+  border-top: 12px dotted aqua;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .top-container.content {
-    position: relative;
-    margin-left: 15%;
-    margin-right: 15%;
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .p-tittle {
-    font-size: 1.5em;
-    margin-top: 0;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.footer-link {
+  margin: 0.2em;
 }
