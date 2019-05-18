@@ -5,12 +5,6 @@ body {
   font-family: "Baloo Bhai", cursive, sans-serif;
 }
 
-p.text {
-  display: inline-block;
-  max-width: 70%;
-  height: 1.5rem;
-}
-
 p {
   color: #085f63;
 }
@@ -21,6 +15,7 @@ h1 {
   font-family: "Sacramento", cursive, fantasy, Arial, Helvetica, sans-serif;
   font-size: 600%;
   color: #085f63;
+  font-weight: normal;
 }
 
 h2,
@@ -39,6 +34,16 @@ hr {
 }
 
 /* ********************** Classes ************************* */
+.text {
+  display: inline-block;
+  max-width: 70%;
+  height: 1.5rem;
+  font-weight: normal;
+}
+
+.p-tittle {
+  font-weight: normal;
+}
 .top-container {
   background-color: #32dbc6;
   margin: 0;
