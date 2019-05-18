@@ -1,3 +1,4 @@
+/* ********************** Elenents ************************* */
 body {
   margin: 0;
   text-align: center;
@@ -24,6 +25,15 @@ h4 {
   color: #373a6d;
 }
 
+hr {
+  width: 10%;
+  border: none;
+  border-top: 12px dotted aqua;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* ********************** Classes ************************* */
 .top-container {
   background-color: #00ffff;
   margin: 0;
@@ -64,14 +74,6 @@ h4 {
 .my-picture {
   margin-top: 2rem;
   width: 13rem;
-}
-
-hr {
-  width: 10%;
-  border: none;
-  border-top: 12px dotted aqua;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
 }
 
 .top-container.content {
