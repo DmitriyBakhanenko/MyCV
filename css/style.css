@@ -7,7 +7,7 @@ body {
 p.text {
   display: inline-block;
   max-width: 70%;
-  height: 1.5em;
+  height: 1.5rem;
 }
 
 h1 {
@@ -54,24 +54,24 @@ h4 {
 }
 
 .skills-picture {
-  width: 13em;
+  width: 13rem;
 }
 
 .contact-img {
-  width: 13em;
+  width: 13rem;
 }
 
 .my-picture {
-  margin-top: 2em;
-  width: 13em;
+  margin-top: 2rem;
+  width: 13rem;
 }
 
 hr {
   width: 10%;
   border: none;
   border-top: 12px dotted aqua;
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .top-container.content {
@@ -81,14 +81,14 @@ hr {
 }
 
 .p-tittle {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   margin-top: 0;
 }
 
 .footer-link {
-  margin: 0.2em;
+  margin: 0.2rem;
 }
 
 .bottom-container {
-  padding-top: 1em;
+  padding-top: 1rem;
 }
