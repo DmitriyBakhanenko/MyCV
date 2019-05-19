@@ -3,6 +3,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Baloo Bhai", cursive, sans-serif;
+  background-color: #32dbc6;
 }
 
 p {
@@ -36,7 +37,7 @@ hr {
 /* ********************** Classes ************************* */
 .text {
   display: inline-block;
-  max-width: 70%;
+  max-width: 50%;
   height: 1.5rem;
   font-weight: normal;
 }
@@ -45,9 +46,6 @@ hr {
   margin: auto;
 }
 
-.p-tittle {
-  font-weight: normal;
-}
 .top-container {
   background-color: #32dbc6;
   margin: 0;
@@ -68,6 +66,10 @@ hr {
   float: left;
   display: block;
   width: auto;
+}
+
+.p-tittle {
+  font-weight: normal;
 }
 
 .bottom-cloud {
@@ -103,26 +105,41 @@ hr {
 
 .middle-container {
   background-color: #f5fbf1;
+  width: 70%;
+  margin: auto;
 }
 
-.contact-me {
+.contact-link {
   display: inline-block;
-  padding-bottom: 2rem;
+  margin: 1.5rem;
+  padding: 0.7rem;
   color: black;
+  border-radius: 20px;
+  background-color: #32dbc6;
+  color: #085f63;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  background-color: #085f63;
+  color: #f5fbf1;
 }
 
 .bottom-container {
-  padding-top: 1rem;
-  background-color: #23caca;
+  background-color: #32dbc6;
 }
 
 .footer-link {
-  margin: 0.3rem;
+  margin: 0.5rem;
   color: #333;
   display: inline-block;
   padding-bottom: 0.8rem;
+  margin-top: 1.5rem;
 }
 
 .footer-link:hover {
+  transform: scale(2.1);
+  margin: 2.5rem;
   color: azure;
+  margin-bottom: 1rem;
 }
