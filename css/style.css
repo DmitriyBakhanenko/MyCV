@@ -41,6 +41,10 @@ hr {
   font-weight: normal;
 }
 
+.table {
+  margin: auto;
+}
+
 .p-tittle {
   font-weight: normal;
 }
