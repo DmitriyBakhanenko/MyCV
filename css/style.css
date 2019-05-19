@@ -110,20 +110,34 @@ hr {
   margin: auto;
 }
 
-.contact-link {
+.butn {
   display: inline-block;
-  margin: 1.5rem;
-  padding: 0.7rem 2.5rem;
-  color: black;
-  border-radius: 20px;
-  background-color: #32dbc6;
-  color: #085f63;
+  margin: 2rem;
+  background: #32dbc6;
+  background-image: -webkit-linear-gradient(top, #32dbc6, #085f63);
+  background-image: -moz-linear-gradient(top, #32dbc6, #085f63);
+  background-image: -ms-linear-gradient(top, #32dbc6, #085f63);
+  background-image: -o-linear-gradient(top, #32dbc6, #085f63);
+  background-image: linear-gradient(to bottom, #32dbc6, #085f63);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
-.contact-link:hover {
-  background-color: #085f63;
-  color: #f5fbf1;
+.butn:hover {
+  background: #30bfac;
+  background-image: -webkit-linear-gradient(top, #30bfac, #032829);
+  background-image: -moz-linear-gradient(top, #30bfac, #032829);
+  background-image: -ms-linear-gradient(top, #30bfac, #032829);
+  background-image: -o-linear-gradient(top, #30bfac, #032829);
+  background-image: linear-gradient(to bottom, #30bfac, #032829);
+  text-decoration: none;
 }
 
 .bottom-container {
